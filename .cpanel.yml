@@ -1,5 +1,5 @@
 deployment:
-  branch: main  # Replace with your branch name, e.g., "master"
+  branch: master  # Replace with your branch name, e.g., "master"
   commands:
     - 'composer install --no-dev --optimize-autoloader'
     - 'php artisan migrate --force'
