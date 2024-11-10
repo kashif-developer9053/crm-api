@@ -1,8 +1,0 @@
-deployment:
-  branch: master  # Replace with your branch name, e.g., "master"
-  commands:
-    - 'composer install --no-dev --optimize-autoloader'
-    - 'php artisan migrate --force'
-    - 'php artisan config:cache'
-    - 'php artisan route:cache'
-    - 'php artisan view:cache'
